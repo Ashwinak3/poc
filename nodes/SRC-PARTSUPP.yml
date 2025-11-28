@@ -1,0 +1,111 @@
+fileVersion: 1
+id: ed673bc4-422b-4bed-9666-13fc92459a99
+name: PARTSUPP
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4147e996-cd7b-4949-b861-4fc7f29150e7
+          stepCounter: ed673bc4-422b-4bed-9666-13fc92459a99
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: PS_PARTKEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 976703ed-77e1-4b75-b4c3-16a6a195aeb0
+          stepCounter: ed673bc4-422b-4bed-9666-13fc92459a99
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: PS_SUPPKEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ae2ea27-8ba7-4c97-bce6-78e507fa8420
+          stepCounter: ed673bc4-422b-4bed-9666-13fc92459a99
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: PS_AVAILQTY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fdfa4578-efde-4bd0-b669-5e1ccffe4493
+          stepCounter: ed673bc4-422b-4bed-9666-13fc92459a99
+        config: {}
+        dataType: NUMBER(15,2)
+        defaultValue: ""
+        description: ""
+        name: PS_SUPPLYCOST
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9b42f07d-e50c-49cd-ad8f-a21a2a172b84
+          stepCounter: ed673bc4-422b-4bed-9666-13fc92459a99
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PS_COMMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: PARTSUPP
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
